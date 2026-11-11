@@ -35,6 +35,10 @@ your code:
 
 Hello!
 
+#### Second Merge change
+
+Hi!
+
 ### License
 
 mit
