@@ -14,19 +14,26 @@ bench install-app game_library
 
 ### Contributing
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+This app uses `pre-commit` for code formatting and linting. Please
+[install pre-commit](https://pre-commit.com/#installation) and enable it for
+this repository:
 
 ```bash
 cd apps/game_library
 pre-commit install
 ```
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+Pre-commit is configured to use the following tools for checking and formatting
+your code:
 
 - ruff
 - eslint
 - prettier
 - pyupgrade
+
+### Change to Merge Here
+
+Hello!
 
 ### License
 
