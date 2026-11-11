@@ -1,0 +1,101 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:game_name",
+ "creation": "2026-11-04 17:14:09.996669",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "game_entry_info_section",
+  "game_name",
+  "game_logo",
+  "game_description",
+  "game_studio",
+  "publishing_date",
+  "game_age",
+  "score"
+ ],
+ "fields": [
+  {
+   "fieldname": "game_entry_info_section",
+   "fieldtype": "Section Break",
+   "label": "Game Entry Info"
+  },
+  {
+   "fieldname": "game_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Game Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "game_logo",
+   "fieldtype": "Attach Image",
+   "label": "Game Logo"
+  },
+  {
+   "fieldname": "game_description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Game Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "game_studio",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Game Studio",
+   "options": "Game Studio",
+   "reqd": 1
+  },
+  {
+   "fieldname": "publishing_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Publishing Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Rating",
+   "label": "Score"
+  },
+  {
+   "fieldname": "game_age",
+   "fieldtype": "Int",
+   "is_virtual": 1,
+   "label": "Game Age"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-11-11 13:15:39.651348",
+ "modified_by": "Administrator",
+ "module": "game_library",
+ "name": "Game Entry",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "game_name"
+}
